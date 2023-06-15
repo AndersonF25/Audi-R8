@@ -1,0 +1,521 @@
+@media (max-width:1200px) {
+
+    .container-header .nav-container {
+        max-width: 996px;
+        width: 100%;
+    }
+
+    .container-header .conteudo {
+        padding-left: 15px;
+        width: 100%;
+    }
+
+
+    #section-1 .container-1 {
+        max-width: 996px;
+        width: 100%;
+    }
+
+    #section-2 .container-2 {
+        max-width: 996px;
+        width: 100%;
+    }
+
+    #section-3 .container-3 {
+        max-width: 993px;
+        width: 100%;
+    }
+
+    #section-4 .container-4 {
+        max-width: 996px;
+        width: 100%;
+    }
+
+    #section-4 .container-4 .foto-capa {
+        width: 400px;
+        height: 250px;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    #section-5 .container-5 {
+        max-width: 996px;
+        width: 100%;
+    }
+
+    #section-5 .container-5 .foto-1,
+    .foto-2,
+    .foto-3,
+    .foto-4,
+    .foto-5 {
+        width: 350px;
+        height: 350px;
+    }
+
+    #section-6 .container-6 {
+        max-width: 996px;
+        width: 100%;
+    }
+
+    #section-7 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #section-7 .lado-esquerdo {
+        width: 100%;
+        max-width: 996px;
+        margin: auto;
+        height: 800px;
+        background-position: center;
+
+
+    }
+
+    #section-7 .lado-direito {
+        width: 100%;
+        max-width: 996px;
+        margin: auto;
+    }
+}
+
+@media (max-width:996px) {
+
+    .container-header .nav-container {
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .container-header .conteudo h2 {
+        font-size: 1.8em;
+        padding-left: 15px;
+    }
+
+    .container-header .conteudo h1 {
+        font-size: 4.2em;
+        max-width: 450px;
+        padding-left: 15px;
+    }
+
+    #section-1 .container-1 {
+        max-width: 768px;
+        width: 100%;
+    }
+
+    #section-2 .container-2 {
+        max-width: 768px;
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #section-3 .container-3 {
+        max-width: 768px;
+        width: 100%;
+        flex-direction: column;
+        gap: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #section-3 .container-3 .container-left {
+        max-width: 768px;
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    #section-3 .container-3 .container-left .container-foto {
+
+        max-width: 768px;
+        width: 100%;
+    }
+
+    #section-3 .container-3 .container-left .container-foto .foto {
+        width: 80%;
+        height: 80%;
+    }
+
+    #section-3 .container-3 .container-left .container-foto .quadrado {
+        width: 80%;
+        right: 80px;
+        bottom: 40px;
+    }
+
+    #section-3 .container-3 .container-left .conteudo-left {
+        width: 100%;
+    }
+
+    #section-4 .container-4 {
+        max-width: 768px;
+        width: 100%;
+    }
+
+    #section-4 .container-4 .text h4 {
+        font-size: 2em;
+        padding-right: 20px;
+    }
+
+    #section-4 .container-4 .text a {
+        font-size: .8em;
+    }
+
+
+    #section-6 .container-6 {
+        max-width: 768px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #section-6 .container-6 .foto-6 {
+        max-width: 550px;
+        width: 100%;
+    }
+
+
+    #section-7 .lado-esquerdo {
+        width: 100%;
+        max-width: 768px;
+        margin: auto;
+        height: 700px;
+        background-position: center;
+
+
+    }
+
+    #section-7 .lado-direito {
+        width: 100%;
+        max-width: 768px;
+        margin: auto;
+    }
+
+    .rodape .container-footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .rodape .container-footer .contact {
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+/*MEDIA QUERIE UNICA PARA SECTION 3*/
+@media (max-width:703px) {
+    #section-3 .container-3 .container-right {
+        padding-left: 30px;
+    }
+}
+
+
+
+
+
+
+@media (max-width:768px) {
+
+    .container-header .nav-container {
+        max-width: 567px;
+        width: 100%;
+    }
+
+
+    #section-1 .container-1 {
+        max-width: 576px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to right, black 0%, black 85%, white 85%, white 100%);
+        color: #fff;
+    }
+
+    #section-1 .container-1 .conteudo-01 a {
+        border: 2px solid #fff;
+    }
+
+    #section-1 .container-1 .foto {
+        width: 400px;
+    }
+
+    #section-2 .container-2 {
+        max-width: 576px;
+        width: 100%;
+    }
+
+    #section-2 .container-2 .conteudo-2 {
+        max-width: 400px;
+    }
+
+    #section-2 .container-2 .conteudo-2 p {
+        max-width: 450px;
+    }
+
+    #section-3 .container-3 {
+        max-width: 567px;
+        width: 100%;
+    }
+
+    #section-3 .container-3 .container-right {
+        padding: 0 25px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #section-3 .container-3 .container-right .conteudo-foto {
+        max-width: 400px;
+        height: 400px;
+    }
+
+
+    #section-4 .container-4 {
+        max-width: 567px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #section-5 .container-5 {
+        gap: 15px;
+    }
+
+    #section-6 .container-6 {
+        max-width: 567px;
+        width: 100%;
+    }
+
+    #section-6 .container-6 .foto-6 {
+        width: 400px;
+    }
+
+    #section-6 .container-6 .conteudo-6 {
+        width: 400px;
+    }
+
+    #section-7 .lado-esquerdo {
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+        height: 400px;
+        background-position: center;
+
+
+    }
+
+    #section-7 .lado-direito {
+        flex-direction: column-reverse;
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+
+    }
+
+    #section-7 .container-conteudo-1 {
+        padding-bottom: 40px;
+        border-left: 1px solid rgb(255, 0, 0);
+        border-right: 1px solid rgb(255, 0, 0);
+    }
+
+    #section-7 .container-conteudo-1,
+    .container-conteudo-2 {
+        width: 100%;
+    }
+
+    #section-7 .container-foto-direito,
+    .container-foto-direito2 {
+        width: 100%;
+    }
+
+    #section-7 .container-conteudo-2 .conteudo-2 {
+        width: 400px;
+    }
+}
+
+
+
+@media (max-width:567px) {
+
+    .container-header .nav-container{
+        width: 320px;
+    }
+    .container-header .container-conteudo-header .conteudo {
+        width: 300px;
+    }
+
+    .container-header .container-conteudo-header .conteudo h1 {
+        font-size: 3em;
+    }
+
+    #section-1,
+    #section-2,
+    #section-5,
+    #section-6,
+    #section-7,
+    .rodape{
+        width: 325px;
+        margin: auto;
+    }
+    #section-1 .container-1 {
+        width: 320px;
+    }
+
+    #section-1 .container-1 .conteudo-01 p {
+        width: 200px;
+    }
+
+    #section-1 .container-1 .foto {
+        max-width: 320px;
+        width: 100%;
+        height: 410px;
+        margin: 0;
+    }
+
+
+
+    #section-2 .container-2 {
+        width: 320px;
+    }
+
+    #section-2 .container-2 .conteudo-2 p {
+        max-width: 310px;
+        text-align: center;
+    }
+
+    #section-2 .container-2 .conteudo-2 {
+        width: 320px;
+    }
+
+
+    #section-3 .container-3 {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    #section-3 .container-3 .container-left .container-foto {
+        margin: auto;
+        width: 270px;
+    }
+
+    #section-3 .container-3 .container-left .container-foto .quadrado{
+        width: 230px;
+        left: 25px;
+    }
+    #section-3 .container-3 .container-left .container-foto .foto {
+        width: 250px;
+    }
+
+    #section-3 .container-3 .container-right .conteudo-foto {
+        height: 330px;
+    }
+
+
+    #section-4 .container-4 {
+        width: 320px;
+    }
+
+    #section-4 .container-4 .foto-capa {
+        width: 310px;
+    }
+
+
+
+
+    #section-5 h4 {
+        width: 320px;
+        margin: auto;
+    }
+
+    #section-5 .container-5 {
+        width: 320px;
+    }
+
+    #section-5 .container-5 .container-foto1 .foto-1 {
+        width: 300px;
+        height: 330px;
+    }
+
+    #section-5 .container-5 .container-foto2 .foto-2 {
+        width: 300px;
+        height: 330px;
+    }
+
+    #section-5 .container-5 .container-foto3 .foto-3 {
+        width: 300px;
+        height: 330px;
+    }
+
+    #section-5 .container-5 .container-foto4 .foto-4 {
+        width: 300px;
+        height: 330px;
+    }
+
+    #section-5 .container-5 .container-foto5 .foto-5 {
+        width: 300px;
+        height: 330px;
+    }
+
+
+
+
+    #section-6 .container-6 {
+        width: 320px;
+    }
+    #section-6 .container-6 .foto-6 {
+        width: 320px;
+        height: 360px;
+    }
+
+    #section-6 .container-6 .conteudo-6 {
+        width: 320px;
+    }
+
+    #section-6 .container-6 .conteudo-6 h4 {
+        font-size: 2.2em;
+    }
+
+
+
+#section-7{
+    width: 320px;
+}
+    #section-7 .lado-esquerdo {
+        width: 320px;
+    }
+
+    #section-7 .lado-direito {
+        width: 320px;
+    }
+
+    #section-7 .lado-direito .container-conteudo-1 .conteudo-1 h4 {
+        font-size: 2em;
+    }
+
+    #section-7 .lado-direito .container-conteudo-1 .conteudo-1 {
+        width: 320px;
+    }
+
+    #section-7 .lado-direito .container-conteudo-2 .conteudo-2 {
+        width: 320px;
+    }
+
+
+
+    .rodape .container-footer {
+        width: 320px;
+    }
+
+    .rodape .container-footer .contact {
+        width: 320px;
+    }
+
+    .rodape .container-footer .contact input {
+        width: 320px;
+    }
+
+}
